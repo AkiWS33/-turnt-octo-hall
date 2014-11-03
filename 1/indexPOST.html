@@ -51,6 +51,23 @@
 
         <hr>
 <section id="main_content">
+
+<table id="toc" class="toc"><tr><td></td></tr></table>
+<div  align="right"><h2>Contents</h2>
+<div>
+<li><a href="#Tracker"><span>Torrent Tracker</span></a></li>
+<li><a href="#mirror"><span>mirror (ddl | tor)</span></a></li>
+<li><a href="#xdcc"><span>xdcc</span></a></li>
+<li><a href="#ftp"><span>ftp</span></a></li>
+<li><a href="#Re-encoded"><span>Re-encoded</span></a></li>
+<li><a href="#Notes" title="not important...needs to update more...."><span>Notes</span></a></li>
+<li><a href="#Hunting"><span>Hunting?</span></a></li>
+<li><a href="#Script"><span>Script</span></a></li>
+<li><a href="#Player"><span>Player??</span></a></li>
+<li><a href="#Thx"><span>Thx</span></a></li>
+</div></div>
+<br><br><br><br>
+
     <!--        
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
@@ -73,7 +90,7 @@ $ git checkout gh-pages
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 -->
 
-
+<span id="Tracker"></span>
 <h2>Torrent Tracker:</h2><br><b>Public</b>
 &gt;<a href="http://www.nyaa.se/?cats=1_37">nyaa</a><br>
 pick Horriblesub (CR/Funi rip) if: <br><ul>
@@ -91,22 +108,26 @@ pick Horriblesub (CR/Funi rip) if: <br><ul>
 &gt;<a href="http://bakabt.me/">bakabt.me/</a><br>
 <ul><li>go here (for older, completed and unlicense? series) if can't get good seed at other trackers (needs registration)</li></ul>
 <a href="http://wiki.bakabt.me/index.php/FAQ#What_makes_BakaBT_different.3F">Further reading.</a><br><br><hr><br>
+
+<span id="mirror"></span>
 <b>mirror (ddl | tor):</b><br>
 &gt;<a href="https://animetosho.org/">https://animetosho.org/</a><br>
 this site provide: <br><ul><li>screenshot, sub/scipt for review/read (if source is soft sub), </li><li>mediainfo (a convenient unified display of the most relevant technical and tag data for video and audio files) </li><li>hashes (crosscheck crc if filename doesn't has crc value).</li></ul>
 &gt;<a href="http://www.animetake.com/">http://www.animetake.com/</a><br>
 lack of feature like above but still works.<br><br><hr>
 
+<span id="xdcc"></span>
 <br><b>xdcc:</b><br>
 <a href="http://nibl.co.uk/bots.php">All bots</a><br>
 -find either group_name+series_name or by using crc value<br>
 --needs IRC client that support file transfer (e.g. mIRC, PChat)<br>
 ---<a href="http://en.wikibooks.org/wiki/Downloading_Files_from_IRC/XDCC_Bot_Guide">wiki/Downloading_Files_from_IRC</a><br><br><hr>
 
+<span id="ftp"></span>
 <br>some fansub groups provide their release in their own host(ftp); e.g.:<br>
 &gt;<a href="http://fffddl.org/">http://fffddl.org/</a><br>
 &gt;<a href="http://doutei-subs.net/archive/">http://doutei-subs.net/archive/</a><br><br>
-some didn't but can be <a title="***that's not affiliate to Doki" href="http://www.ftpsearch.co/browse-en/92.42.31.58/Anime/Motto+To+LOVE-Ru/">trace.</a><br><br><br>
+some didn't but can be <a title="***that's not affiliate to Doki" href="http://www.ftpsearch.co/browse-en/92.42.31.58/Anime/Motto+To+LOVE-Ru/">trace.</a><br><br>
 
 ::grab by using idm (download link with IDM)<br><br>
 :::if use ddl, to make sure file is corrupt or not, can be check by using rapidcrc, if the filename has crc value on it. &gt;<a href="http://rapidcrc.sourceforge.net/download.html">download here</a><br><br>
@@ -115,12 +136,16 @@ If doesn't have crc value, some might attach SFV file like <a href="http://bakab
 Actually, torrent won't have this kind of problem as it "merged" piece by piece. However, this is to ensure it is the same file if seed/upload at other tracker/filehost. Error (file corruption) might occur during uploading or downloading.<br>
 Another problem with magnet links, is that it's still possible for a torrent to finish downloading, and the file become corrupted. <br><br><hr>
 
+
+<span id="Re-encoded"></span>
 <br>Below is re-encoded from fansub/fanrip release which file size is lower:<br>
 &gt;<a href="http://hi10anime.com/">http://hi10anime.com/ </a><br>
 (needs registration to download, all in 10bit depth, normal member see masked link instead actual link)<br>
 &gt;<a href="http://animechiby.com/">http://animechiby.com/</a><br>
 (visitor see masked link, mostly release in 10 bit depth but older release might be still in 8 bit depth)<br><br><hr>
 
+
+<span id="Notes"></span>
 <br>*************************not important<br>
 Notes: <br>
 --------for re-encoded, better takes in 10 bit depth<br>
@@ -135,14 +160,17 @@ Visual error like ringing, banding, etc can slightly be fix by using/enable madV
 <a href="http://screenshotcomparison.com/comparison/97005">(mpc:evr&lt;madVR)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 <a href="http://screenshotcomparison.com/comparison/38184">(player:vlc&lt;mpc)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
 <a href="http://screenshotcomparison.com/comparison/58931">(mpc:deband)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<br>
 ***Example of crap/shitiest of visual error (bad encoding) can be seen at <a href="http://www.animeplus.tv/">animePLUS.tv</a> &amp; their affiliation.&nbsp;&nbsp;No offense.<br>
 &gt;<a href="http://screenshotcomparison.com/comparison/60869">http://screenshotcomparison.com/comparison/60869</a><br>
-&gt;<a href="http://screenshotcomparison.com/comparison/60869">http://screenshotcomparison.com/comparison/11144</a><br>
+&gt;<a href="http://screenshotcomparison.com/comparison/60869">http://screenshotcomparison.com/comparison/11144</a><br><br>
 
 **This happens as encoder set a higher value (eg. crf above 30) or lower bitrate (eg. 2pass lower 400) to archieve smaller video file size (Reason:fast upload to video host and more files can be stored for 1GB, for example.) which this will affect to the video quality/detail, that is more artifact, banding, etc, and what worsen, its get blurry when it should be sharp and pixelation will occur due highly compression.<br>
 tl;dr: It is crap/shit. Worthless and wasting your data bandwidth by streaming it or your data storage by keeping it.<br>
 *choose whatever does fit with your "standard" either lower file size with low/medium quality or higher(reasonable, ???) file size with good/better quality.<br><br><hr><br>
 
+
+<span id="Hunting"></span>
 Kinda lost, don't know what to find?<br>
 what "keyword" should be use? Which group take/sub/rip this series?<br><br>
 &gt;goes to <a href="http://anidb.net">anidb.net</a><br>
@@ -155,6 +183,8 @@ it'll looks like <a href="http://i.imgur.com/UTuBQ0p.png">this</a><br>
 *mess of tagging but they start to improve it since early 2014 (check forum to clarify), even each "tag" has their own explaination.<br><br>
 ※find either group_name+series_name or by using crc value<br><br><hr><br>
 
+
+<span id="Script"></span>
 If wanna script to search those title from anime database (for greasemonkey &amp; tampermonkey user only), can <a href="https://gist.github.com/AkiWS33/81a373839a58074d9879#file-ats-js">take this one</a> &gt;<br><br>
 Credited to scriptwriter from userscript.org (domain is dead). It only exist or work on anidb, anime-planet, animenfo, MAL, &amp; ANN.<br>
 <pre><code>****Mozilla above version 30 and GM 2.3 (or from 2.0) will not work.</code></pre>
@@ -172,11 +202,15 @@ Your browser does not support the video tag.</source>
 -------Last update is 2012 and few sites dead(domain expired), so I change to other alternative and add 3 things:<br>
 -------xdcc search, streaming (for preview &amp; experimenting?) and re-encoded group.<br><br><hr><br>
 
+
+<span id="Player"></span>
 <div align="center">How about give a try watch your animu with MPC+madVR:<br>
 <a href="http://myanimelist.net/forum/?topicid=516729">Tutorial</a><br><br>
 Add shader if you wanna try (e.g: sharpen complex2, luma sharpen, etc)<br>
 <a href="http://screenshotcomparison.com/comparison/97011">Comparison with and w/o shader</a><br></div><br><hr><br><br>
 
+
+<span id="Thx"></span>
 <div align="right">Thanks for reading:<br><a href="http://i.imgur.com/vbG58qP.png">obviously...</a><br>
 <a href="http://i.imgur.com/6m2TNrn.jpg">....outdated</a><br>
 ...but.there.is.a.point...┓(。ヮ°)┏<br><br><a href="http://utw.me/2013/07/19/a-certain-scientific-choudenjihou-s-15/">Enjoy your show. ( ͡° ͜ʖ ͡°)</a></div>
@@ -199,6 +233,7 @@ Press any key to continue . . .
 blinkORnotIcon'tKNOW</a>
 </pre>
 </div>-->
+
 <br>
 </section>
 
